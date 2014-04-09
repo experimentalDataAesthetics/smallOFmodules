@@ -1183,7 +1183,7 @@
 		6F216DFC18E1AD8E0066AC82 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
 		6F216DFE18E1AD8E0066AC82 /* libgsl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgsl.a; sourceTree = "<group>"; };
 		6F216E0118E1AD8E0066AC82 /* ofxGSL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxGSL.h; sourceTree = "<group>"; };
-		6F51129618E1B1FF000443B7 /* MBS-shockwaveDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MBS-shockwaveDebug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F51129618E1B1FF000443B7 /* MBS-shockwaveDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "MBS-shockwaveDebug.app"; path = "OSC-SC-sendDebug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6b65e6930994cc4b2d2b8b33 /* OscPacketListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscPacketListener.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscPacketListener.h; sourceTree = SOURCE_ROOT; };
 		7689f8a0f3d0b7635a8c3104 /* ofxOscArg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscArg.h; path = ../../../addons/ofxOsc/src/ofxOscArg.h; sourceTree = SOURCE_ROOT; };
 		81967292bfc87a0144bd32c6 /* ofxOscSender.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscSender.cpp; path = ../../../addons/ofxOsc/src/ofxOscSender.cpp; sourceTree = SOURCE_ROOT; };
