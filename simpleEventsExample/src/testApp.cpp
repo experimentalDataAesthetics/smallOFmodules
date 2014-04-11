@@ -5,13 +5,13 @@ void testApp::setup(){
     //---------- init gray circles----------
     
     for (int i = 0; i < TOTAL_GRAY_CIRCLES; i++) {
-        float r = ofRandom(50) + 20;
+        float r = 20;
         float x = ofRandom(ofGetWidth()-(r*2))+r;
         float y = ofRandom(ofGetHeight()-(r*2))+r;
         grayCircles[i].setup(r, x, y,ofColor::gray);
     }
     //---------- init my circle ---------
- 	redCircle.setup(100, ofRandom(ofGetWidth()-200)+100, ofRandom(ofGetHeight()-200)+100, ofColor::red);   
+ 	redCircle.setup(20, ofRandom(ofGetWidth()-200)+100, ofRandom(ofGetHeight()-200)+100, ofColor::red);
    
     //------------registering (adding) listeners ----------
     
@@ -37,7 +37,7 @@ void testApp::draw(){
     ofSetColor(0);
     
     
-    ofCircle(clickedPoint, 10);
+    ofCircle(clickedPoint, 3);
     ofPopStyle();
     string msg = "by clicking on any circle the background is changed. Global event\n";
     msg += "by clicking over the red circle the  little black circle will be positioned at the click point.\n";
@@ -49,5 +49,6 @@ void testApp::onMouseInCircle(ofVec2f & e){
 }
 //--------------------------------------------------------------
 void testApp::onMouseInAnyCircle(ofVec2f & e){
-     bg.set(ofRandom(255), ofRandom(255), ofRandom(255));
+    clickedPoint.set(e);
+    // bg.set(ofRandom(255), ofRandom(255), ofRandom(255));
 }
